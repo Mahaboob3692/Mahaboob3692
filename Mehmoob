@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <Style>
+        *{
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+  
+    
+    
+    
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    
+    clear: both;
+    display: table;
+  }
+  .image-resize {
+    height: 250px;
+    object-fit: cover;
+    object-position:center center;
+}
+#desc{
+    padding:px;
+    text-align:center;
+}
+body{
+    margin:2px;
+    color:black;
+    
+    
+    
+}
+#header{
+  width:100%;
+  top:-15px;
+  left:0px;
+  background-image: linear-gradient(90deg, green ,skyblue);
+  color:black;
+  text-align: center;
+  position:fixed;
+  font-size:medium;a
+
+}
+#footer{
+  width:100%;
+  bottom:-10px;
+  left:0px;
+  background-image: linear-gradient(90deg, green,skyblue);
+  color:black;
+  text-align: center;
+  position:fixed;
+  font-size: medium;
+  
+}
+#example{
+  background-image: url("https://wallpaperaccess.com/full/380733.jpg");
+}
+    </Style>
+</head>
+<body>
+  <div id="example">
+    <div id="header">
+        <h1> Historical Places In India</h1>
+            </div>
+            <div id="footer">
+              <h2>Thank You....    Design by P. Mahaboob Basha </h2>
+             
+              
+           </div>
+            <br>
+            <br>
+           
+            
+            
+    <div class="row">
+
+         <div class="column">
+          <a href="http://en.wikipedia.org/wiki/Taj_Mahal"a>
+          <img class="img-responsive image-resize" src="https://www.holidify.com/images/attr_square/1020.jpg" alt="TAJ MAHAL,AGRA" style="width:100%">
+          <div  id="desc">TAJ MAHAL</div>
+         </div>
+         <div class="column">
+          <a href="http://en.wikipedia.org/wiki/India_Gate"a>
+          <img class="img-responsive image-resize" src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202111/indiagate.jpg?lYn72MAlKBootzHCdjK1bGH1uQLc7_3n&size=1200:675" alt="INDIA GATE,DELHI" style="width:100%">
+          <div  id="desc">INDIA GATE</div>
+         </div>
+         <div class="column">
+          <a href="http://en.wikipedia.org/wiki/Hawa_Mahal"a>
+          <img class="img-responsive image-resize"  src="https://www.holidify.com/images/cmsuploads/compressed/h4_20170822181427.PNG" alt="HAWA MAHAL,JAIPUR" style="width:100%">
+          <div  id="desc">HAWA MAHAL</div>
+         </div>
+         <div class="column">
+          <a href="http://en.wikipedia.org/wiki/Red_Fort"a>
+            <img class="img-responsive image-resize" src="https://cdn.britannica.com/20/189820-050-D650A54D/Red-Fort-Old-Delhi-India.jpg" alt="RED FORT,DELHI" style="width:100%">
+            <div  id="desc">RED FORT</div>
+          </div>
+          <div class="column">
+            <a href="http://en.wikipedia.org/wiki/Mysore_Palace"a>
+            <img class="img-responsive image-resize" src="https://www.holidify.com/images/cmsuploads/compressed/attr_1568_20191102174918.jpg" alt="MYSORE PALACE,MYSORE" style="width:100%">
+            <div  id="desc">MYSORE PALACE</div>
+          </div>
+          <div class="column">
+            <a href="http://en.wikipedia.org/wiki/Amer_Fort"a>
+            <img class="img-responsive image-resize" src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/73/32.jpg" alt="AMBER FORT,JAIPUR" style="width:100%">
+            <div  id="desc">AMBER FORT</div>
+          </div>
+          <div class="column">
+            <a href="http://en.wikipedia.org/wiki/Golden_Temple"a>
+            <img class="img-responsive image-resize" src="https://cdn.britannica.com/13/173813-050-1DCA15F5/Harmandir-Sahib-Amritsar-India-Punjab.jpg" alt="GOLDEN TEMPLE,AMRISTAR" style="width:100%">
+            <div  id="desc">GOLDEN TEMPLE</div>
+          </div>
+          <div class="column">
+            <a href="http://en.wikipedia.org/wiki/Gateway_of_India"a>
+            <img class="img-responsive image-resize" src="https://mediaindia.eu/wp-content/uploads/2020/01/sarang-pande-k3SHcT9zGkE-unsplash.jpg" alt="GATEWAY OF INDIA,MUMBAI" style="width:100%">
+            <div  id="desc">GATEWAY OF INDIA</div>
+          </div>
+          <div class="column">
+            <a href="http://en.wikipedia.org/wiki/Qutb_Minar"a>
+            <img class="img-responsive image-resize"  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/b7/1f/31/qutab-minar.jpg?w=1200&h=1200&s=1" alt="QUTUB MINAR,DELHI" style="width:100%">
+            <div  id="desc">QUTUB MINAR</div>
+          </div>
+          
+         
+          
+          <div align="center" > 
+            <h2> NATIONAL ANTHEM</h2>
+          
+            <audio controls>
+              <source src="https://pagalworld.nl/files/download/id/1372" type="audio/ogg">
+            
+            </audio>
+            
+              </div>
+              <br>
+              <br>
+              <br>
+              </div>
+  </div>
+         
+    
+    
+</body>
+</html>
